@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MathematizingApplication<mathematizing>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.uri.mathematizing.MathematizingApplication",
+            "projectName": "mathematizing",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
