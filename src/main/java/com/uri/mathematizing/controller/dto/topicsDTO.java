@@ -13,6 +13,9 @@ public class topicsDTO {
     private String topics_user_name;
     private String topics_discipline_name;
 
+    public topicsDTO() {
+    }
+
     public topicsDTO(topics topic) {
         this.topics_id = topic.getTopics_id();
         this.topics_name = topic.getTopics_name();

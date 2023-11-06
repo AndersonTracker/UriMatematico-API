@@ -12,6 +12,7 @@ import com.uri.mathematizing.modelo.alternatives;
 public interface AlternativesRepository extends JpaRepository<alternatives, Long>  {
 
      @Query("SELECT a FROM alternatives a WHERE a.alternatives_questions_id = :alternativesId")
-    List<alternatives> findByAlternativesQuestionsId(Long alternativesId);
+    List<alternatives> findByAlternativesQuestionId(Long alternativesId);
 
+    //
 }

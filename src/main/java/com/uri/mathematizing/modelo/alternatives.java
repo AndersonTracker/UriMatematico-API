@@ -22,4 +22,10 @@ public class alternatives {
     public void setAlternatives_description(String alternatives_description) {
         this.alternatives_description = alternatives_description;
     }
+    public Long getAlternatives_id() {
+        return alternatives_id;
+    }
+    public void setAlternatives_id(Long alternatives_id) {
+        this.alternatives_id = alternatives_id;
+    }
 }
